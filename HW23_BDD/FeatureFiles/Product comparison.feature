@@ -27,18 +27,18 @@ Background:
 
 @regression
 Scenario: Show only product differences
-	When user clicks the Differences Only button
+	When user clicks on the "Только отличия" button
 	Then user sees only the difference in the compared products 
 
 
 @regression
 Scenario: Remove item from comparison
 	When user clicks on the first product Action button
-	And user click on the Delete button
+	And user click on the "Удалить" button
 	Then user see only second choosed product on comparison page
 
 
 @regression
 Scenario: Share сomparison list
-	When user clicks on Share Comparison List button
+	When user clicks on the "Поделиться списком сравнения" button
 	Then user see information about copying the link to the clipboard

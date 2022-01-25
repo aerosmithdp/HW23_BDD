@@ -44,7 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FeatureFiles\Filters.feature" />
     <None Include="FeatureFiles\Product comparison.feature" />
+    <None Include="FeatureFiles\Rozetka premium.feature" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
